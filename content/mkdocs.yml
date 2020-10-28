@@ -1,0 +1,23 @@
+site_name: Cloudsecnotes
+repo_name: " Ibrahim-Akk/cloudsecnotes"
+repo_url: "https://github.com/Ibrahim-Akk/cloudsecnotes"
+edit_uri: edit/master/content/security/docs
+theme: 
+  name: material
+  features: 
+    - tabs
+nav:
+  - Kubernetes Tools:
+    - Home: 'index.md'
+    - Identity and Access Management: 'iam.md'
+  - Kubernetes Sec List: 
+    - Home: 'cluster-autoscaling.md'
+  - Cloudsec Tools: 
+    - Home: 'cluster-auto.md'
+  - Container Security: 
+    - Home: 'clusterng.md'
+markdown_extensions:
+    - toc:
+        permalink: true
+    - admonition
+    - codehilite
